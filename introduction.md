@@ -1,3 +1,5 @@
+- [Índice](https://github.com/andrewhenriquef/ruby-memory-optimization)
+
 # Otimizando o uso de memória dos workers de nossa aplicação rails, parte 1
 
 ## Introdução, problematização
@@ -69,56 +71,5 @@ Nessa primeira parte falamos sobre o como o ruby manuseia a memória usada. Resu
 
 Até a próxima, pessoal.
 
-
-# old way results
-
-file size 32.8 mb (csv)
-
-22.7 % de 15.5 gb -> 3.518 mb usados para gerar um arquivo de 32.8 mb
-
-9 min para gerar
-
-# new way results
-
-
-
-Json.parse vs to_json
-
-### outras ferramentas não exploradas
-
-- ferramentas
-- o que olhar e como
-
-## solução ou workaround em cima disso
-
-# fontes
-
-Entendendo o uso de memória no ruby:
-[What causes ruby memory bloat](https://www.joyfulbikeshedding.com/blog/2019-03-14-what-causes-ruby-memory-bloat.html)
-
-[Incremental Garbage Collection in Ruby 2.2](https://blog.heroku.com/incremental-gc)
-
-[how does ruby garbage collection works](https://stackify.com/how-does-ruby-garbage-collection-work-a-simple-tutorial/)
-
-[Video - What causes ruby memory bloat](https://vimeo.com/322007980)
-
-[Garbage collection](https://ruby-hacking-guide.github.io/gc.html)
-
-Optimizing Rails for memory usage:
-
-- [Part 1: Before You Optimize](https://collectiveidea.com/blog/archives/2015/02/19/optimizing-rails-for-memory-usage-part-1-before-you-optimize)
-
-- [Part 2: Tuning the GC](https://collectiveidea.com/blog/archives/2015/02/19/optimizing-rails-for-memory-usage-part-2-tuning-the-gc)
-
-- [Part 3: Pluck and Database Laziness](https://collectiveidea.com/blog/archives/2015/03/05/optimizing-rails-for-memory-usage-part-3-pluck-and-database-laziness)
-
-- [Part 4: Lazy JSON Generation and Final Thoughts](https://collectiveidea.com/blog/archives/2015/03/13/optimizing-rails-for-memory-usage-part-4-lazy-json-generation-and-final-thoughts)
-
-
-[Hunting Down Memory Issues In Ruby: A Definitive Guide](https://www.toptal.com/ruby/hunting-ruby-memory-issues)
-
-[Debugging memory bloat](https://book.scoutapm.com/memory-bloat.html)
-
-[How ruby uses memory](https://www.schneems.com/2015/05/11/how-ruby-uses-memory.html)
-
-[How ruby uses memory - video](https://www.youtube.com/watch?time_continue=2181&v=m2nj5sUE3hg)
+- [2ª parte - Análise](https://github.com/andrewhenriquef/ruby-memory-optimization/blob/master/analysis.md)
+- [3ª parte - Otimização](https://github.com/andrewhenriquef/ruby-memory-optimization/blob/master/analysis.md)

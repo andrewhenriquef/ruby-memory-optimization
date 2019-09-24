@@ -1,6 +1,9 @@
+- [Índice](https://github.com/andrewhenriquef/ruby-memory-optimization)
+- [1ª parte - Introdução](https://github.com/andrewhenriquef/ruby-memory-optimization/blob/master/introduction.md)
+
 # Otimizando o uso de memória dos workers de nossa aplicação rails, parte 2
 
-Na primeira parte deste artigo falamos um pouco sobre o que me levou a escrever este artigo e como o ruby manuseia a memória para alocar seus objetos. Nessa segunda parte entro mais adentro sobre os problemas de memória que tivemos, ferramentas e como tirar métricas.
+Na [primeira parte deste artigo](https://github.com/andrewhenriquef/ruby-memory-optimization/blob/master/introduction.md) falamos um pouco sobre o que me levou a escrever este artigo e como o ruby manuseia a memória para alocar seus objetos. Nessa segunda parte entro mais adentro sobre os problemas de memória que tivemos, ferramentas e como tirar métricas.
 
 ## O que não me trouxe resultados
 
@@ -133,4 +136,6 @@ Algumas observações importantes foram feitas com a analise:
 - O pico de uso de memória acontece dentro do iterador que gera os dados do relatório `997.52 - 448.24 = 549.28mb`
 - A memória que já foi usada não estava sendo liberada para o S.O
 
-Entendemos o como o ruby manuseia a memória e conseguimos descobrir alguns parâmetros iniciais. Agora com esses dados em mãos podemos começar a fazer algumas melhorias para diminuir o uso dessa memória. Faremos isso na terceira parte deste artigo. Vejo vocês lá!
+Entendemos o como o ruby manuseia a memória e conseguimos descobrir alguns parâmetros iniciais. Agora com esses dados em mãos podemos começar a fazer algumas melhorias para diminuir o uso dessa memória. Faremos isso na [terceira parte deste artigo](https://github.com/andrewhenriquef/ruby-memory-optimization/blob/master/optimization.md). Vejo vocês lá!
+
+- [3ª parte - Otimização ](https://github.com/andrewhenriquef/ruby-memory-optimization/blob/master/optimization.md)
